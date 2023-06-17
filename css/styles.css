@@ -1,0 +1,303 @@
+#title{
+  background-color: #f8ecdd;
+  /* color: black; */
+}
+
+.tag-line{
+  font-family:"Ubuntu";
+  font-weight: 600;
+  font-size:3rem;
+  line-height: 1.5;
+  color: black;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  font-height: 1.5;
+}
+
+body{
+  /* font-family: "Montserrat"; */
+}
+
+.container-fluid{
+  padding: 3% 5% 7%;
+}
+
+
+
+/* Navigation bar */
+
+.navbar{
+  /* padding: 0 0 4.5rem; */
+  background-color: white;
+}
+
+.navbar-brand{
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  /* font-weight: 600; */
+  color:#50716d;
+  font-weight: bold;
+}
+
+.navbar-brand:hover{
+  color: #ada7b7;
+}
+
+.custom-color {
+  background-color: #E34059; /* Replace with your custom color code */
+}
+
+.nav-item{
+  padding: 0 18px; 
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  color: black;
+}
+
+.about{
+  font-family: Ubuntu;
+  font-size: 150%;
+}
+
+/*Download Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.about-us-btn{
+  background-color: #f7653c; /* Replace #FF0000 with your desired hex code */
+  /* Additional customizations if needed */
+  border-color: #f7653c;
+  color: #FFFFFF;
+  padding: 2% 10% 2%;
+}
+
+.apply-now-btn{
+  background-color: #f7653c; /* Replace #FF0000 with your desired hex code */
+  /* Additional customizations if needed */
+  border-color: #f7653c;
+  color: #FFFFFF;
+}
+
+/* Change button hover color */
+.apply-now-btn:hover {
+  background-color: #434649; /* Replace with your desired hover color */
+  border-color: #434649;
+}
+
+.apply-now-btn:active {
+  background-color: black !important; /* Replace with your desired hover color */
+  border-color: black !important;
+}
+
+.read-more-btn{
+  border-color: black;
+  color:black;
+}
+
+.read-more-btn:hover{
+  background-color: #434649;
+  border-color: #434649;
+}
+
+.read-more-btn:active{
+  border-color: black !important;
+  background-color: black !important;
+}
+
+.read-more-event{
+  color: white;
+  border-color: white;
+}
+
+.read-more-event:hover{
+  background-color: #f6ecdf;
+  color: black;
+  border-color: black;
+}
+
+.read-more-event:active{
+  background-color: #f1e0c9 !important;
+  color: black !important;
+  border-color: black !important;
+}
+
+.events-heading{
+  border-color: black !important; /* Replace with your desired color */
+}
+
+.events{
+  /* border-color: black !important; Replace with your desired color */
+}
+
+/* title-image */
+
+.title-image{
+  width: 900px; /* Set the fixed width */
+  max-width: 100%; /* Allow the width to expand up to 100% of the parent container */
+  height: auto; /* Automatically adjust the height based on the content */
+  /* position: absolute; */
+  /* right: 25%; */
+  border-radius: 12px;
+
+}
+
+
+
+/* transforming the image to full view on ipad n smaller displays */
+
+@media (max-width: 990px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+    width: 55%;
+    
+  }
+}
+
+
+/* app-features */
+
+#features{
+  font-family: "Montserrat";
+  padding: 7% 15%;
+  background-color: white;
+  position:relative;
+}
+
+.center{
+  text-align: center;
+}
+
+.features-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 5%;
+}
+
+.feature-icon{
+    color: #ef8172;
+}
+
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+.feature-text{
+  color: #8f8f8f;
+}
+
+
+
+
+/* testimonial section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.testimonial-msg{
+  padding: 7% 15%;
+}
+
+/* Pricing section */
+
+#news{
+  padding: 100px;
+}
+
+#blogs{
+  padding: 100px;
+}
+
+#jobs{
+  padding: 100px; 
+}
+
+#events{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3%;
+}
+
+.card-image {
+  width: auto; /* Adjust the width as per your requirements */
+  height: 200px; /* Adjust the height as per your requirements */
+  object-fit: cover; /* Optional: This property controls how the image fills its container */
+}
+
+.blog-image{
+  width: auto; /* Adjust the width as per your requirements */
+  height: 300px; /* Adjust the height as per your requirements */
+  object-fit: cover; /* Optional: This property controls how the image fills its container */  
+}
+
+
+/* call to action  */
+
+#cta{
+  
+  padding:7% 17%;
+  background-color: #f6ecdf;
+  text-align: center;
+  color: black;
+  
+  
+}
+
+.call-to-action-sent{
+  font-family:"Arial";
+  padding-bottom: 3%;
+  margin: 0px 0px;
+  font-size: 200%;
+}
+
+/* footer */
+
+#footer{
+  text-align: center;
+  padding-top: 5%;
+}
+
+.contact-icons{
+  padding: 0 5px 0px; 
+}
+
+.copy-right{
+  color:#8f8f8f;
+}
